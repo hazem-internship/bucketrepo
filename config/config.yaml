@@ -6,7 +6,7 @@ http:
 
 storage:
     enabled: false
-    bucket_url: "gs://bucketrepo"
+    bucket_url: "s3://bucketrepo?endpoint=https://minio.minio-opeartor.svc.cluster.local&s3ForcePathStyle=true&region=us-east-1"
 
 cache:
     base_dir: "/tmp/bucketrepo"
