@@ -5,7 +5,7 @@ http:
     chartPath: "charts"
 
 storage:
-    enabled: false
+    enabled: true
     bucket_url: "s3://bucketrepo?endpoint=https://minio.minio-opeartor.svc.cluster.local&s3ForcePathStyle=true&region=us-east-1"
 
 cache:
