@@ -19,7 +19,7 @@ serviceaccount:
   enabled: true
 
 # define environment variables here as a map of key: value
-env: {}
+#env: {}
 
 # define environment variables that will be stored in a secret namd 'jenkins-x-bucketrepo-env'
 #
